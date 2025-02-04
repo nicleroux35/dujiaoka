@@ -47,7 +47,7 @@ install_dujiaoka() {
     echo -e "${YELLOW}Installing Dujiaoka...${NC}"
     
     # Download installation script
-    if curl -sS -o duka.sh https://raw.githubusercontent.com/woniu336/open_shell/main/duka.sh; then
+    if curl -sS -o duka.sh https://raw.githubusercontent.com/nicleroux35/dujiaoka/refs/heads/main/duka.sh?token=GHSAT0AAAAAAC6HWS6KFXREH6LNESO64ANSZ5B6XZQ; then
         chmod +x duka.sh
         echo -e "${GREEN}Installation script downloaded successfully${NC}"
     else
